@@ -12,7 +12,7 @@ p{
     text-decoration: underline #ccc double 0.1rem;
     text-indent: 1rem;
 }
-p.maisculo{
+p.maiusculo{
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 1rem;
@@ -20,7 +20,7 @@ p.maisculo{
     word-spacing: 2rem;
     color:white;
     font:italic small-caps bold 2rem monospace;
-    text-shadow: 0.2rem 0.2rem 0.3rem blue, 0 0 1rem greenyellow, 0 0 2rem orangered;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
 }
 a:link, a:active{
     text-decoration: none;
@@ -34,8 +34,8 @@ a:hover{
 }
 footer{
     clear: both;
-    background: #ff6347 url("../img/Gabigol.jpg") no-repeat left bottom;
-    height: 1rem;
+    background: #ff6347 url("../img/footer.jpg") no-repeat left bottom;
+    height: 10rem;
 }
 div{
     position: fixed;
@@ -47,7 +47,7 @@ div{
     color: white;
     border: 0.2rem solid darkred;
     padding: 0.2rem;
-    font-size: 0.2rem;
+    font-size: 2rem;
 }
 
 
