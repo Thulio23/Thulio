@@ -49,3 +49,48 @@ div{
     padding: 0.2rem;
     font-size: 0.2rem;
 }
+
+
+h1#page1{
+    color:aqua;
+    border: 0.3rem dashed yellow;
+}
+img{
+    width: 20rem;
+}
+ul{
+    list-style-type: square;
+}
+
+
+h1.page2{
+    color:blue;
+    border: 1rem groove blue;
+    border-radius: 0.7rem;
+}
+ol{
+    list-style-type: upper-roman;
+}
+section img{
+    float: left
+}
+
+
+main.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem
+}
+
+
+main.flexbox{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article{
+    background-color: red;
+    margin: 1rem;
+    padding: 2rem;
+}
